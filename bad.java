@@ -64,7 +64,7 @@ public class Test {
     }
 
     void myFunc3() {
-        log.debug("Log message warn: errorcode=" + errorcode + ", user=" + user);
+        log.error("Error migrating account entities for defaultSiteId={} lwtAccountId={}", defaultSiteId, lwtAccountId, e);
     }
 
     public static void main(String[] args) {
